@@ -4,7 +4,11 @@ const path = require('path');
 const http = require('http');
 const app = express();
 const new2 =cc;
+<<<<<<< HEAD
 const port = 9000;
+=======
+const port = 8080;
+>>>>>>> change-port
 
 // API file for interacting with MongoDB
 const api = require('./server/routes/api');
